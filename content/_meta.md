@@ -1,5 +1,5 @@
 ---
-Logo: image/toy.jpg
+Logo: image/Port2.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

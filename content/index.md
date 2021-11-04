@@ -6,6 +6,9 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej! Andreas heter jag. Pluggar Webbprogrammering på BTH.
+Går första året och läser för nuvarande kursen Design.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Den här portfolion skapas i samband med det.
+
+![image](assets\img\toy.jpg)
