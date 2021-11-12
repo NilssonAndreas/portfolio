@@ -12,3 +12,4 @@ Går första året och läser för nuvarande kursen Design.
 Den här portfolion skapas i samband med det.
 
 ![image](assets\img\toy.jpg)
+
