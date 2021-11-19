@@ -1,5 +1,5 @@
 ---
-Title: technologies
+Title: Technologies
 Description: This is our technologies.
 Template: technologies
 ---
