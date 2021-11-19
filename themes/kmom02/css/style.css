@@ -6489,6 +6489,8 @@ pre {
   border: 1px solid #ccc;
   border-radius: 0.3em;
   background: #f5f5f5;
+  overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 pre code {
@@ -6557,10 +6559,116 @@ pre code {
   min-width: 100%;
 }
 
+.landingpage {
+  display: grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-gap: 20px;
+  grid-template-areas: "title title title" "tec1 tec2 tec3" "tec4 tec5 tec6" "tec7 tec7 tec7";
+}
+.landingpage h1 {
+  display: flex;
+  justify-content: center;
+  grid-area: title;
+}
+.landingpage .technologies {
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(31, 31, 84, 0.7) 0.1px 10px 16px, rgba(17, 17, 26, 0.4) 0.1px 8px 32px;
+  background: #8e8cbd;
+  background: linear-gradient(352deg, rgba(230, 230, 230, 0.82) 0%, rgba(127, 144, 154, 0.510708507) 100%);
+}
+
+.tec7 {
+  display: flex;
+  text-align: center;
+  box-shadow: rgba(31, 31, 84, 0.7) 0.1px 10px 16px, rgba(17, 17, 26, 0.4) 0.1px 8px 32px;
+  background: #8e8cbd;
+  background: linear-gradient(352deg, rgba(230, 230, 230, 0.82) 0%, rgba(127, 144, 154, 0.510708507) 100%);
+  grid-area: tec7;
+}
+.tec7 a {
+  min-width: 100%;
+}
+
+.t-single {
+  display: grid;
+  margin-left: 3%;
+  margin-right: 10%;
+  column-gap: 12%;
+  grid-template-areas: "sbar s-tit" "sbar stext" "sbar scode";
+}
+.t-single h1 {
+  grid-area: s-tit;
+  display: flex;
+  justify-content: center;
+}
+.t-single pre code {
+  grid-area: scode;
+}
+.t-single .s-text {
+  grid-area: stext;
+}
+
+.t-sidebar {
+  grid-area: sbar;
+}
+.t-sidebar ul {
+  list-style: none;
+}
+
+.tec1 {
+  grid-area: tec1;
+}
+
+.tec2 {
+  grid-area: tec2;
+}
+
+.tec3 {
+  grid-area: tec3;
+}
+
+.tec4 {
+  grid-area: tec4;
+}
+
+.tec5 {
+  grid-area: tec5;
+}
+
+.tec6 {
+  grid-area: tec6;
+}
+
+@media (max-width: 500px) {
+  .landingpage {
+    grid-template-areas: "title" "tec1" "tec2" "tec3" "tec4" "tec5" "tec6" "tec7";
+  }
+  .landingpage h1 {
+    grid-column: 1;
+  }
+  .landingpage .tec7 {
+    grid-column: 1;
+  }
+
+  .t-single {
+    display: flex;
+    flex-direction: column;
+  }
+  .t-single .t-sidebar {
+    visibility: hidden;
+  }
+}
 body {
   background-color: #8eb1df;
 }
 
 .hidden {
   display: none !important;
+}
+
+.trying {
+  margin-right: 5%;
+  margin-left: 5%;
 }
