@@ -14,9 +14,10 @@
 .nav {
     display: flex;
     justify-content: center;
-    background-color: rgb(47, 79, 79);
+    background-color: $accent-color;
     width: 331px;
     min-width: 100%;
+    
 }
 
 .nav ul {
@@ -27,21 +28,21 @@
 }
 
 .nav ul li {
-    border: 3px solid rgb(0, 0, 0);
+    border: $border;
     margin-left: 5px;
     margin-bottom: 5px;
     word-wrap: break-word;
-    background-color: rgb(222, 184, 135);
+    background-color: $nav-background;
     padding: 0 1em;
+    
+}
+
+.nav a {
+    color: $font-color;
 }
 
 .empty {
     visibility: hidden;
-}
-
-.nav a,
-.nav-toggle {
-    color: #333;
 }
 
 .nav-toggle {

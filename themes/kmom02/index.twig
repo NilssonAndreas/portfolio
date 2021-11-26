@@ -1,4 +1,9 @@
 {% include 'incl/header.twig' %}
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
 
 <body>
     

@@ -1,11 +1,15 @@
 {% set last_link = current_page.url|split('/')%}
 {% include 'incl/header.twig' %}
-
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
 <body>
    
     {% include 'incl/nav.twig' %}
     <div class="main" role="main">
-        {% if last_link|last == 'technology' %}
+        {% if last_link|last == 'technology' or last_link|last == 'analysis' %}
         <div class="landingpage">
             {{ content }}
         </div>

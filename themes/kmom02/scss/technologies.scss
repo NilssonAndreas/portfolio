@@ -18,18 +18,18 @@
     .technologies {
         display: flex;
         justify-content: center;
-        box-shadow: rgb(31 31 84 / 70%) 0.1px 10px 16px, rgb(17 17 26 / 40%) 0.1px 8px 32px;
-        background: rgb(142, 140, 189);
-        background: linear-gradient(352deg, rgb(230 230 230 / 82%) 0%, rgba(127, 144, 154, 0.510708507) 100%);
+        box-shadow: $box-shadow;
+        background: $background-alternative-color;
+        background: $bg-gradient;
     }
 }
-
+// rgb(142, 140, 189)
 .tec7 {
     display: flex;
     text-align: center;
-    box-shadow: rgb(31 31 84 / 70%) 0.1px 10px 16px, rgb(17 17 26 / 40%) 0.1px 8px 32px;
-    background: rgb(142, 140, 189);
-    background: linear-gradient(352deg, rgb(230 230 230 / 82%) 0%, rgba(127, 144, 154, 0.510708507) 100%);
+    box-shadow: $box-shadow;
+    background: $background-alternative-color;
+    background: $bg-gradient;
     grid-area: tec7;
 
     a {

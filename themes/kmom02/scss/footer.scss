@@ -1,5 +1,18 @@
 .footer {
-    background-color: rgb(47, 79, 79);
+    background-color: $accent-color;
     width: 331px;
     min-width: 100%;
+
+    p {
+        color: $font-alternative-color;
+    }
+    
+    .fab {
+        color: $font-alternative-color;
+    }
+    
+    .fas {
+        color: $font-alternative-color;
+    }
 }
+
