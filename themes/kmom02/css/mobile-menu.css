@@ -55,10 +55,19 @@
     }
     
 }
-@media (max-width: 300px) {
-    html {
-        width: fit-content;
+
+@media (max-width: 450) {
+
+    * {
+        font-size: 3.5vw;
     }
     
 }
 
+@media (max-width: 300px) {
+    html {
+        width: fit-content;
+        
+    }
+  
+}

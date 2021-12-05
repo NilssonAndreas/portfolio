@@ -1,0 +1,20 @@
+{% set last_link = "assets/img/gallery" %}
+{% include 'incl/header.twig' %}
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
+<body>
+   
+    {% include 'incl/nav.twig' %}
+    <div class="main" role="main">
+        <div class="mygal">
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
