@@ -9,15 +9,22 @@ Analysis
 
 <div> 
 <a class= "technologies tec1" href="analysis/01_colors">
-<h3> Färg</h3>
+<h2> Färg</h2>
 </a> 
  
 </div>
 <div> 
 <a class= "technologies tec1" href="analysis/02_load">
-<h3> prestanda</h3>
+<h2> prestanda</h2>
 </a> 
  
 </div>
+<div> 
+<a class= "technologies tec1" href="analysis/03_design_principles">
+<h2> Designprinciper</h2>
+</a> 
+ 
+</div>
+
 
 
